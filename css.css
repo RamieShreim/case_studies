@@ -9,12 +9,10 @@ body {
 	background-image: url(images/background.png);
 	background-repeat: no-repeat;
 	background-size: cover;
+	
 }
 
-.side_rect h3 {
-	margin: 0;
-
-}
+a {text-decoration:none;}
 
 .bg_square {
 	display: flex;
@@ -30,10 +28,11 @@ body {
 {
 	display: flex;
 	background-color: black;
-	width: 40%;
+	width: 30%;
 	min-width: 200px;
 	min-height: 900px;
 	flex-direction: column;
+
 	
 }
 
@@ -111,6 +110,26 @@ body {
 	font-size: 20px;
 	flex-direction: column;
 	margin: 0 auto;
+}
+
+.side_rect h3 {
+	margin: 5px;
+
+}
+
+/* Content Links on page*/
+.side_rect a:link {
+	color: white;
+}
+
+
+.side_rect a:visited {
+	color: white;
+}
+
+
+.side_rect a:hover {
+	color: gray;
 }
 
 /* profile image size limit/float (Might not be needed here.) */
