@@ -11,7 +11,10 @@ body {
 	background-size: cover;
 }
 
+.side_rect h3 {
+	margin: 0;
 
+}
 
 .bg_square {
 	display: flex;
@@ -27,9 +30,9 @@ body {
 {
 	display: flex;
 	background-color: black;
-	width: 100%;
+	width: 40%;
+	min-width: 200px;
 	min-height: 900px;
-	max-width: 450px;
 	flex-direction: column;
 	
 }
@@ -39,7 +42,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	min-height: 900px;
-	max-width: 1200px;;
+	max-width: 1200px;
 	justify-content: flex-end;
 	text-align: center;
 }
@@ -103,14 +106,14 @@ body {
 
 
 .sidebar_text {
-	padding: 25px;
+	display: flex;
 	color: white;
-	font-style: italic;
 	font-size: 20px;
-	text-align: center;
+	flex-direction: column;
+	margin: 0 auto;
 }
 
-/* profile image size limit/float */
+/* profile image size limit/float (Might not be needed here.) */
 
 .portrait {
 	opacity: 100;
