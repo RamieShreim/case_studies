@@ -87,17 +87,22 @@ a {text-decoration:none;}
 }
 
 .bio_text {
+	text-align: left;
 	font-size: 18px;
-	padding: 0px 130px 30px;
+	padding: 0px 80px 30px;
 	color: #484747;
 }
 
 .bio_text h1 {
+	margin-top: 60px;
 	font-size: 50px;
+	text-align: center;
 }
  
 .bio_text h2 {
+	text-align: center;
 	 padding: 8px;
+	 padding-top: 40px;
  }
 
 
@@ -112,6 +117,11 @@ a {text-decoration:none;}
 
 .side_rect h3 {
 	margin: 5px;
+
+}
+
+.side_rect h1 {
+	margin-top: 60px;
 
 }
 
@@ -178,14 +188,15 @@ a {text-decoration:none;}
 /*Images for case study*/
 
 #study_img {
+	border-color: gray;
+	border-style: solid;
 	min-width: 500px;
 	min-height: auto;
-	max-width: 100%;
-	max-height: 100%;
-	padding: 0px 5px 5px;
-	border-style: solid;
-	border-width: 8px;
-	border-color: white;
+	margin: 0px 80px 30px;
+	max-width: 95%;
+	max-height: 95%;
+	
+	
 }
 
 /*//////////// media query ///////////*/
@@ -207,5 +218,18 @@ a {text-decoration:none;}
 	}
 	.footer_text {
 		font-size: 18px;
+		padding: 0px 80px 0px;
+	}
+
+	#study_img {
+		margin: 0 auto;
+		padding: 0px 0px 0px;
+		border-color: transparent;
+	}
+
+	.bio_text {
+
+		padding: 0px 20px 0px;
+
 	}
 }
