@@ -1,6 +1,6 @@
 
 
-/* Shapes */
+/*//////////////// Shapes/containers ////////////*/
 
 body {
 	background-color: #484747;
@@ -8,7 +8,6 @@ body {
 	background-image: url(images/background.png);
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
-	height: 100%;
 	
 }
 
@@ -20,7 +19,6 @@ a {text-decoration:none;}
 	width: 100%;
 	max-width: 1500px;
 	background-color: black;
-	align-items: flex-start;
 	}
 
 .side_rect
@@ -29,7 +27,6 @@ a {text-decoration:none;}
 	background-color: black;
 	min-width: 200px;
 	width: 30%;
-	height: 100%;
 	flex-direction: column;
 
 	
@@ -72,7 +69,7 @@ a {text-decoration:none;}
 }
 
 
-/* text properties */
+/*///////// text properties //////////*/
 
 
 .footer_text {
@@ -110,6 +107,7 @@ a {text-decoration:none;}
 	font-size: 20px;
 	flex-direction: column;
 	margin: 0 auto;
+	padding-left: 10px;
 }
 
 .side_rect h3 {
@@ -118,6 +116,8 @@ a {text-decoration:none;}
 }
 
 /* Content Links on page*/
+
+
 .side_rect a:link {
 	color: white;
 }
@@ -131,6 +131,9 @@ a {text-decoration:none;}
 .side_rect a:hover {
 	color: gray;
 }
+
+
+/*/////////// images ////////////*/
 
 /* profile image size limit/float (Might not be needed here.) */
 
@@ -171,7 +174,21 @@ a {text-decoration:none;}
 	max-width: 30px;
 }
 
-/* media query */
+
+/*Images for case study*/
+
+#study_img {
+	min-width: 500px;
+	min-height: auto;
+	max-width: 100%;
+	max-height: 100%;
+	padding: 0px 5px 5px;
+	border-style: solid;
+	border-width: 8px;
+	border-color: white;
+}
+
+/*//////////// media query ///////////*/
 
 @media only screen and (max-width: 1080px)
 {
