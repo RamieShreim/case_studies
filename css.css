@@ -190,11 +190,12 @@ a {text-decoration:none;}
 #study_img {
 	border-color: gray;
 	border-style: solid;
-	min-width: 500px;
+	border-width: 1px;
+	min-width: auto;
 	min-height: auto;
-	margin: 0px 80px 30px;
-	max-width: 95%;
-	max-height: 95%;
+	margin: 0 80px 30px;
+	max-width: 100%;
+	max-height: auto;
 	
 	
 }
