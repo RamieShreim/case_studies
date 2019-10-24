@@ -24,7 +24,7 @@ a {text-decoration:none;}
 .side_rect {
 	display: flex;
 	background-color: black;
-	min-width: 200px;
+	min-width: 400px;
 	width: 30%;
 	flex-direction: column;
 
@@ -188,6 +188,7 @@ a {text-decoration:none;}
 .study_img_container {
 	width: 100%;
 	align-self: center;
+	margin-bottom: 20px;
 }
 
 #study_img {
