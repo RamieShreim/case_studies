@@ -15,14 +15,13 @@ a {text-decoration:none;}
 
 .bg_square {
 	display: flex;
-	margin: 0px auto;
+	margin: 0 auto;
 	width: 100%;
 	max-width: 1500px;
 	background-color: black;
 	}
 
-.side_rect
-{
+.side_rect {
 	display: flex;
 	background-color: black;
 	min-width: 200px;
@@ -37,8 +36,7 @@ a {text-decoration:none;}
 	background-color: white;
 	display: flex;
 	flex-direction: column;
-	min-height: 900px;
-	max-width: 1200px;
+	max-width: 100%;
 	justify-content: flex-end;
 	text-align: center;
 }
@@ -187,16 +185,16 @@ a {text-decoration:none;}
 
 /*Images for case study*/
 
+.study_img_container {
+	width: 100%;
+	align-self: center;
+}
+
 #study_img {
 	border-color: gray;
 	border-style: solid;
 	border-width: 1px;
-	min-width: auto;
-	min-height: auto;
-	margin: 0 80px 30px;
-	max-width: 100%;
-	max-height: auto;
-	
+	width: 90%;
 	
 }
 
