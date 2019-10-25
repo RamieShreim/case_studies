@@ -66,6 +66,12 @@ a {text-decoration:none;}
 	
 }
 
+.footer_items {
+
+	display: flex;
+	flex-direction: row;
+
+}
 
 /*///////// text properties //////////*/
 
@@ -81,6 +87,13 @@ a {text-decoration:none;}
 .footer_text h1 {
 
 	font-size: 28px;
+	
+}
+
+
+.footer_text div {
+
+	display: inline;
 	
 }
 
@@ -178,9 +191,10 @@ a {text-decoration:none;}
 
 .social_icon {
 	
-	vertical-align: bottom;
-	padding-left: 3px;
-	padding-right: 3px;
+	vertical-align: top;
+	margin-top: 12px;
+	padding-left: 5px;
+	padding-right: 0px;
 	max-height: 30px;
 	max-width: 30px;
 }
@@ -235,4 +249,12 @@ a {text-decoration:none;}
 		padding: 0px 20px 0px;
 
 	}
+
+	.footer_items {
+
+		display: flex;
+		flex-direction: column;
+	
+	}
+
 }
