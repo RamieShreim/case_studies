@@ -186,6 +186,24 @@ a {text-decoration:none;}
 	
 }
 
+.top_btn:hover{
+	animation: fadeIn 1s;
+	animation-fill-mode: forwards;
+	
+}
+
+/* Animations */
+
+@keyframes fadeIn {
+	0% {
+		opacity: .4;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
 
 /*Dictates the size and padding of the social media icons.*/
 
@@ -229,12 +247,16 @@ a {text-decoration:none;}
 	}
 
 	.social_icon {
-		max-height: 50px;
-		max-width: 50px;
+		min-height: 70px;
+		min-width: 70px;
 		margin-top: 15px;
 	}
 	.footer_text {
-		font-size: 18px;
+		font-size: 40px;
+		padding: 0px 80px 0px;
+	}
+	.footer_text h1 {
+		font-size: 40px;
 		padding: 0px 80px 0px;
 	}
 
@@ -244,10 +266,8 @@ a {text-decoration:none;}
 		border-color: transparent;
 	}
 
-	.bio_text {
-
-		padding: 0px 20px 0px;
-
+	.blockMe {
+		display: block;
 	}
 
 	.footer_items {
