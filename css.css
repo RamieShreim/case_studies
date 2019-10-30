@@ -2,6 +2,10 @@
 
 /*//////////////// Shapes/containers ////////////*/
 
+html {
+	scroll-behavior: smooth;
+}
+
 body {
 	background-color: #484747;
 	font-family: 'Chelsea Market', sans-serif;
@@ -123,7 +127,8 @@ a {text-decoration:none;}
 	font-size: 20px;
 	flex-direction: column;
 	margin: 0 auto;
-	padding-left: 10px;
+	padding-left: 50px;
+	position: fixed;
 }
 
 .side_rect h3 {
@@ -172,39 +177,31 @@ a {text-decoration:none;}
 	
 }
 
-/* to top button */
-.top_btn {
-	display: flex;
-	margin: 0 auto;
-	max-width: 100px;
-	max-height: 100px;
-	position: fixed;
-	bottom: 5%;
-	left: 2.5%;
-	opacity: .4;
-
-	
+.section_icons {
+	width: 50px;
+	height: 50px;
+	vertical-align: bottom;
 }
 
-.top_btn:hover{
-	animation: fadeIn 1s;
-	animation-fill-mode: forwards;
-	
+.section_icons:hover {
+
+	animation: iconWiggle 2s infinite;
+
 }
 
-/* Animations */
-
-@keyframes fadeIn {
-	0% {
-		opacity: .4;
+@keyframes iconWiggle {
+	50%
+	{
+		transform: rotate(-45deg);
+		transform-origin: 0px 25px;
 	}
 
-	100% {
-		opacity: 1;
+	100%
+	{
+		transform: rotate(0deg);
+		transform-origin: 0px 25px;
 	}
 }
-
-
 /*Dictates the size and padding of the social media icons.*/
 
 .social_icon {
@@ -256,7 +253,7 @@ a {text-decoration:none;}
 		padding: 0px 80px 0px;
 	}
 	.footer_text h1 {
-		font-size: 40px;
+		font-size: 30px;
 		padding: 0px 80px 0px;
 	}
 
