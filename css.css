@@ -9,7 +9,6 @@ html {
 body {
 	background-color: #484747;
 	font-family: 'Chelsea Market', sans-serif;
-	background-image: url(images/background.png);
 	background-repeat: no-repeat;
 	background-size: 100% 100%;
 	
@@ -309,4 +308,15 @@ a {text-decoration:none;}
 	
 	}
 
+}
+
+
+.gradient {
+	width: 100%;
+	height: 700px;
+	background: linear-gradient(black, transparent);
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: -1;
 }
