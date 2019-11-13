@@ -27,8 +27,7 @@ a {text-decoration:none;}
 .side_rect {
 	display: flex;
 	background-color: black;
-	min-width: 350px;
-	width: 30%;
+	width: 350px;
 	flex-direction: column;
 
 	
@@ -81,11 +80,14 @@ a {text-decoration:none;}
 	flex-direction: column;
 	background-image: url(images/hero.png);
 	min-width: 100%;
-	min-height: 500px;
+	min-height: 300px;
 	background-size: cover;
 	color: white;
 	align-self: flex-start;
 	justify-content: flex-end;
+	outline: 6px solid white;
+	outline-offset: -6px;
+	
 
 }
 /*///////// text properties //////////*/
@@ -252,16 +254,18 @@ a {text-decoration:none;}
 	padding-left: 20px;
 	padding-right: 20px;
 	font-size: 20px;
-	margin-bottom: 30px;
+	margin-bottom: 60px;
 }
 
 .hero_text h1 {
-	font-size: 50px;
+	font-size: 70px;
+	
 }
 
 
 .hero_text p {
-	opacity: .5;
+	opacity: .8;
+	margin-top: -40px;
 }
 
 
