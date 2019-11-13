@@ -27,7 +27,8 @@ a {text-decoration:none;}
 .side_rect {
 	display: flex;
 	background-color: black;
-	width: 350px;
+	min-width: 350px;
+	max-width: 350px;
 	flex-direction: column;
 
 	
