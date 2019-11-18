@@ -34,6 +34,13 @@ a {text-decoration:none;}
 	
 }
 
+.image_rows {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	
+}
 
 .bio_footer_container {
 	background-color: white;
